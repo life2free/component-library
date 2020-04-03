@@ -1,5 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
+import Icon from "../Icon/Icon";
 
 import Button from "./Button";
 
@@ -90,3 +91,11 @@ storiesOf("Button / Default", module)
   .add("Default MoreTransparent Large", () => (
     <Button label="Do something" transparent="more" large />
   ));
+
+storiesOf("Button / Button with icon", module)
+  .add("Heart Button with Text", () => <Icon icon="hearts" />)
+  .add("Carts Button with Text", () => (
+    <Button label="Do something" transparent="full" />
+  ))
+  .add("Heart Button", () => <Button />)
+  .add("Carts Button", () => <Button transparent="full" />);
