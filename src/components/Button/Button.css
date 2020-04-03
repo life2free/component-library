@@ -1,0 +1,165 @@
+button {
+  border-radius: 2px;
+  /* padding: 5px 25px; */
+  width: 150px;
+  height: 46px;
+  background-color: #22262a;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #33a0ff;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #2e90e5;
+  outline: thin solid #33a0ff;
+}
+
+.button-primary-fulltransparent {
+  background-color: transparent;
+  color: #33a0ff;
+  border: 2px solid #33a0ff;
+}
+
+.button-primary-fulltransparent:hover {
+  background-color: transparent;
+  outline: thin solid #33a0ff;
+}
+
+.button-primary-moretransparent {
+  background-color: rgba(51, 160, 255, 0.1);
+  color: #33a0ff;
+}
+
+.button-primary-moretransparent:hover {
+  background-color: rgba(51, 160, 255, 0.1);
+  outline: thin solid #33a0ff;
+}
+
+.button-danger {
+  background-color: #ff4858;
+  color: white;
+}
+.button-danger:hover {
+  background-color: #f53848;
+  outline: thin solid #33a0ff;
+}
+
+.button-danger-fulltransparent {
+  background-color: transparent;
+  color: #ff4252;
+  border: 2px solid #ff4252;
+}
+
+.button-danger-fulltransparent:hover {
+  background-color: transparent;
+  outline: thin solid #33a0ff;
+}
+
+.button-danger-moretransparent {
+  background-color: rgba(255, 72, 88, 0.1);
+  color: #ff4252;
+}
+
+.button-danger-moretransparent:hover {
+  background-color: rgba(255, 72, 88, 0.1);
+  outline: thin solid #33a0ff;
+}
+
+.button-success {
+  background-color: #0ad00a;
+  color: white;
+}
+.button-success:hover {
+  background-color: #07c107;
+  outline: thin solid #33a0ff;
+}
+
+.button-success-fulltransparent {
+  background-color: transparent;
+  color: #07c107;
+  border: 2px solid #07c107;
+}
+
+.button-success-fulltransparent:hover {
+  background-color: transparent;
+  outline: thin solid #33a0ff;
+}
+
+.button-success-moretransparent {
+  background-color: rgba(7, 193, 7, 0.1);
+  color: #07c107;
+}
+
+.button-success-moretransparent:hover {
+  background-color: rgba(7, 193, 7, 0.1);
+  outline: thin solid #33a0ff;
+}
+
+.button-warning {
+  background-color: #ffc600;
+  color: white;
+}
+.button-warning:hover {
+  background-color: #ebb600;
+  outline: thin solid #33a0ff;
+}
+
+.button-warning-fulltransparent {
+  background-color: transparent;
+  color: #ebb600;
+  border: 2px solid #ebb600;
+}
+
+.button-warning-fulltransparent:hover {
+  background-color: transparent;
+  outline: thin solid #33a0ff;
+}
+
+.button-warning-moretransparent {
+  background-color: rgba(235, 182, 0, 0.1);
+  color: #ebb600;
+}
+
+.button-warning-moretransparent:hover {
+  background-color: rgba(235, 182, 0, 0.1);
+  outline: thin solid #33a0ff;
+}
+
+.button-default {
+  background-color: #22262a;
+  color: white;
+}
+.button-default:hover {
+  background-color: #13161a;
+  outline: thin solid #33a0ff;
+}
+
+.button-default-fulltransparent {
+  background-color: transparent;
+  color: #13161a;
+  border: 2px solid #13161a;
+}
+
+.button-default-fulltransparent:hover {
+  background-color: transparent;
+  outline: thin solid #33a0ff;
+}
+
+.button-default-moretransparent {
+  background-color: rgba(19, 22, 26, 0.1);
+  color: #13161a;
+}
+
+.button-default-moretransparent:hover {
+  background-color: rgba(19, 22, 26, 0.1);
+  outline: thin solid #33a0ff;
+}
+
+.button-large {
+  /* padding: 10px 50px; */
+  width: 171px;
+  height: 60px;
+}
