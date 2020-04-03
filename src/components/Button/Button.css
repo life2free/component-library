@@ -159,7 +159,22 @@ button {
 }
 
 .button-large {
-  /* padding: 10px 50px; */
   width: 171px;
   height: 60px;
+}
+
+.button-small {
+  width: 140px;
+  height: 40px;
+}
+
+.button-square {
+  width: 40px;
+  height: 40px;
+}
+
+.flex-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

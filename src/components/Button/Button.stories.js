@@ -1,7 +1,5 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import Icon from "../Icon/Icon";
-
 import Button from "./Button";
 
 storiesOf("Button / Primary", module)
@@ -13,13 +11,23 @@ storiesOf("Button / Primary", module)
     <Button label="Do something" type="primary" transparent="more" />
   ))
   .add("Primary Large", () => (
-    <Button label="Do something" type="primary" large />
+    <Button label="Do something" type="primary" size="large" />
   ))
   .add("Primary FullTransparent Large", () => (
-    <Button label="Do something" type="primary" transparent="full" large />
+    <Button
+      label="Do something"
+      type="primary"
+      transparent="full"
+      size="large"
+    />
   ))
   .add("Primary MoreTransparent Large", () => (
-    <Button label="Do something" type="primary" transparent="more" large />
+    <Button
+      label="Do something"
+      type="primary"
+      transparent="more"
+      size="large"
+    />
   ));
 
 storiesOf("Button / Danger", module)
@@ -31,13 +39,23 @@ storiesOf("Button / Danger", module)
     <Button label="Do something" type="danger" transparent="more" />
   ))
   .add("Danger Large", () => (
-    <Button label="Do something" type="danger" large />
+    <Button label="Do something" type="danger" size="large" />
   ))
   .add("Danger FullTransparent Large", () => (
-    <Button label="Do something" type="danger" transparent="full" large />
+    <Button
+      label="Do something"
+      type="danger"
+      transparent="full"
+      size="large"
+    />
   ))
   .add("Danger MoreTransparent Large", () => (
-    <Button label="Do something" type="danger" transparent="more" large />
+    <Button
+      label="Do something"
+      type="danger"
+      transparent="more"
+      size="large"
+    />
   ));
 
 storiesOf("Button / Success", module)
@@ -49,13 +67,23 @@ storiesOf("Button / Success", module)
     <Button label="Do something" type="success" transparent="more" />
   ))
   .add("Success Large", () => (
-    <Button label="Do something" type="success" large />
+    <Button label="Do something" type="success" size="large" />
   ))
   .add("Success FullTransparent Large", () => (
-    <Button label="Do something" type="success" transparent="full" large />
+    <Button
+      label="Do something"
+      type="success"
+      transparent="full"
+      size="large"
+    />
   ))
   .add("Success MoreTransparent Large", () => (
-    <Button label="Do something" type="success" transparent="more" large />
+    <Button
+      label="Do something"
+      type="success"
+      transparent="more"
+      size="large"
+    />
   ));
 
 storiesOf("Button / Warning", module)
@@ -67,13 +95,23 @@ storiesOf("Button / Warning", module)
     <Button label="Do something" type="warning" transparent="more" />
   ))
   .add("Warning Large", () => (
-    <Button label="Do something" type="warning" large />
+    <Button label="Do something" type="warning" size="large" />
   ))
   .add("Warning FullTransparent Large", () => (
-    <Button label="Do something" type="warning" transparent="full" large />
+    <Button
+      label="Do something"
+      type="warning"
+      transparent="full"
+      size="large"
+    />
   ))
   .add("Warning MoreTransparent Large", () => (
-    <Button label="Do something" type="warning" transparent="more" large />
+    <Button
+      label="Do something"
+      type="warning"
+      transparent="more"
+      size="large"
+    />
   ));
 
 storiesOf("Button / Default", module)
@@ -84,18 +122,36 @@ storiesOf("Button / Default", module)
   .add("Default MoreTransparent", () => (
     <Button label="Do something" transparent="more" />
   ))
-  .add("Default Large", () => <Button label="Do something" large />)
+  .add("Default Large", () => <Button label="Do something" size="large" />)
   .add("Default FullTransparent Large", () => (
-    <Button label="Do something" transparent="full" large />
+    <Button label="Do something" transparent="full" size="large" />
   ))
   .add("Default MoreTransparent Large", () => (
-    <Button label="Do something" transparent="more" large />
+    <Button label="Do something" transparent="more" size="large" />
   ));
 
 storiesOf("Button / Button with icon", module)
-  .add("Heart Button with Text", () => <Icon icon="hearts" />)
-  .add("Carts Button with Text", () => (
-    <Button label="Do something" transparent="full" />
+  .add("Heart Button with Text", () => (
+    <Button
+      label="Add to Cart"
+      type="primary"
+      transparent="more"
+      icon="cart"
+      size="small"
+    />
   ))
-  .add("Heart Button", () => <Button />)
-  .add("Carts Button", () => <Button transparent="full" />);
+  .add("Carts Button with Text", () => (
+    <Button
+      label="Add to Favorites"
+      type="primary"
+      transparent="more"
+      icon="hearts"
+      size="small"
+    />
+  ))
+  .add("Heart Button", () => (
+    <Button type="primary" shape="square" transparent="more" icon="hearts" />
+  ))
+  .add("Carts Button", () => (
+    <Button type="primary" shape="square" transparent="more" icon="cart" />
+  ));
