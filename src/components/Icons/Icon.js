@@ -2,9 +2,10 @@ import React from "react";
 import "./Icon.css";
 import cart from "./cart.svg";
 import hearts from "./hearts.svg";
+import checkmark from "./checkmark.svg";
 
-const icons = ["cart", "hearts"];
-const iconObjs = [cart, hearts];
+const icons = ["cart", "hearts", "checkmark"];
+const iconObjs = [cart, hearts, checkmark];
 const Icon = (props) => {
   if (props.icon !== undefined && props.icon.trim() !== "") {
     let icon = props.icon.trim();

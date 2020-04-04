@@ -1,6 +1,5 @@
 button {
   border-radius: 2px;
-  /* padding: 5px 25px; */
   width: 150px;
   height: 50px;
   background-color: #22262a;
@@ -35,7 +34,6 @@ button {
 }
 
 .button-primary.button-faded:hover {
-  /* background-color: rgba(51, 160, 255, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -66,7 +64,6 @@ button {
 }
 
 .button-danger.button-faded:hover {
-  /* background-color: rgba(255, 72, 88, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -97,7 +94,6 @@ button {
 }
 
 .button-success.button-faded:hover {
-  /* background-color: rgba(7, 193, 7, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -128,7 +124,6 @@ button {
 }
 
 .button-warning.button-faded:hover {
-  /* background-color: rgba(235, 182, 0, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -159,7 +154,6 @@ button {
 }
 
 .button-default.button-faded:hover {
-  /* background-color: rgba(19, 22, 26, 0.1); */
   outline: thin solid #33a0ff;
 }
 
