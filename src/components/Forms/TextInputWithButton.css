@@ -1,0 +1,18 @@
+.textinputwithbtn {
+  width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.textinputwithbtn:hover {
+  outline: thin solid #33a0ff;
+}
+
+.textinputwithbtn-small {
+  width: 260px;
+}
+
+.textinputwithbtn-large {
+  width: 300px;
+}

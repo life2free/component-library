@@ -2,7 +2,7 @@ button {
   border-radius: 2px;
   /* padding: 5px 25px; */
   width: 150px;
-  height: 46px;
+  height: 50px;
   background-color: #22262a;
   cursor: pointer;
 }
@@ -17,24 +17,25 @@ button {
   outline: thin solid #33a0ff;
 }
 
-.button-primary-fulltransparent {
+.button-primary.button-outline {
   background-color: transparent;
   color: #33a0ff;
   border: 2px solid #33a0ff;
 }
 
-.button-primary-fulltransparent:hover {
+.button-primary.button-outline:hover {
   background-color: transparent;
   outline: thin solid #33a0ff;
 }
 
-.button-primary-moretransparent {
+.button-primary.button-faded {
   background-color: rgba(51, 160, 255, 0.1);
   color: #33a0ff;
+  border: none;
 }
 
-.button-primary-moretransparent:hover {
-  background-color: rgba(51, 160, 255, 0.1);
+.button-primary.button-faded:hover {
+  /* background-color: rgba(51, 160, 255, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -47,24 +48,25 @@ button {
   outline: thin solid #33a0ff;
 }
 
-.button-danger-fulltransparent {
+.button-danger.button-outline {
   background-color: transparent;
   color: #ff4252;
   border: 2px solid #ff4252;
 }
 
-.button-danger-fulltransparent:hover {
+.button-danger.button-outline:hover {
   background-color: transparent;
   outline: thin solid #33a0ff;
 }
 
-.button-danger-moretransparent {
+.button-danger.button-faded {
   background-color: rgba(255, 72, 88, 0.1);
   color: #ff4252;
+  border: none;
 }
 
-.button-danger-moretransparent:hover {
-  background-color: rgba(255, 72, 88, 0.1);
+.button-danger.button-faded:hover {
+  /* background-color: rgba(255, 72, 88, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -77,24 +79,25 @@ button {
   outline: thin solid #33a0ff;
 }
 
-.button-success-fulltransparent {
+.button-success.button-outline {
   background-color: transparent;
   color: #07c107;
   border: 2px solid #07c107;
 }
 
-.button-success-fulltransparent:hover {
+.button-success.button-outline :hover {
   background-color: transparent;
   outline: thin solid #33a0ff;
 }
 
-.button-success-moretransparent {
+.button-success.button-faded {
   background-color: rgba(7, 193, 7, 0.1);
   color: #07c107;
+  border: none;
 }
 
-.button-success-moretransparent:hover {
-  background-color: rgba(7, 193, 7, 0.1);
+.button-success.button-faded:hover {
+  /* background-color: rgba(7, 193, 7, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -107,24 +110,25 @@ button {
   outline: thin solid #33a0ff;
 }
 
-.button-warning-fulltransparent {
+.button-warning.button-outline {
   background-color: transparent;
   color: #ebb600;
   border: 2px solid #ebb600;
 }
 
-.button-warning-fulltransparent:hover {
+.button-warning.button-outline :hover {
   background-color: transparent;
   outline: thin solid #33a0ff;
 }
 
-.button-warning-moretransparent {
+.button-warning.button-faded {
   background-color: rgba(235, 182, 0, 0.1);
   color: #ebb600;
+  border: none;
 }
 
-.button-warning-moretransparent:hover {
-  background-color: rgba(235, 182, 0, 0.1);
+.button-warning.button-faded:hover {
+  /* background-color: rgba(235, 182, 0, 0.1); */
   outline: thin solid #33a0ff;
 }
 
@@ -137,29 +141,30 @@ button {
   outline: thin solid #33a0ff;
 }
 
-.button-default-fulltransparent {
+.button-default.button-outline {
   background-color: transparent;
   color: #13161a;
   border: 2px solid #13161a;
 }
 
-.button-default-fulltransparent:hover {
+.button-default.button-outline :hover {
   background-color: transparent;
   outline: thin solid #33a0ff;
 }
 
-.button-default-moretransparent {
+.button-default.button-faded {
   background-color: rgba(19, 22, 26, 0.1);
   color: #13161a;
+  border: none;
 }
 
-.button-default-moretransparent:hover {
-  background-color: rgba(19, 22, 26, 0.1);
+.button-default.button-faded:hover {
+  /* background-color: rgba(19, 22, 26, 0.1); */
   outline: thin solid #33a0ff;
 }
 
 .button-large {
-  width: 171px;
+  width: 170px;
   height: 60px;
 }
 

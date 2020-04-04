@@ -1,14 +1,19 @@
 import React from "react";
 import "./Icon.css";
+import cart from "./cart.svg";
+import hearts from "./hearts.svg";
 
-// This is a functional component - just sent up a little differently as an arrow function!
+const icons = ["cart", "hearts"];
+const iconObjs = [cart, hearts];
 const Icon = (props) => {
-  let className = "";
-
   if (props.icon !== undefined && props.icon.trim() !== "") {
-    className = `icon-${props.icon.trim().toLowerCase()}`;
+    let icon = props.icon.trim();
+    let idx = icons.indexOf(icon);
+    if (idx !== -1) {
+      return <img src={iconObjs[idx]} alt={icon}></img>;
+    }
   }
-  return <img className={className}></img>;
+  return "";
 };
 
 export default Icon;

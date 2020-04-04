@@ -6,11 +6,3 @@ img {
   background-size: 90% 90%;
   border: none;
 }
-
-.icon-hearts {
-  background-image: url("./hearts.png");
-}
-
-.icon-cart {
-  background-image: url("./cart.png");
-}
