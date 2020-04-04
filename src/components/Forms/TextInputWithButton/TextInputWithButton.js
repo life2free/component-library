@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./TextInputWithButton.css";
-import TextInput from "./TextInput";
-import Button from "../Button/Button";
+import TextInput from "./../TextInput/TextInput";
+import Button from "./../../Button/Button";
 
 class TextInputWithButton extends Component {
   constructor(props) {

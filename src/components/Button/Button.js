@@ -1,6 +1,6 @@
 import React from "react";
 import "./Button.css";
-import Icon from "../Icons/Icon";
+import Icon from "./../Icons/Icon";
 
 const Button = (props) => {
   let classList = "";
@@ -41,7 +41,7 @@ const Button = (props) => {
   }
 
   let icon = "";
-  if (props.icon !== undefined && props.icon.trim() != "") {
+  if (props.icon !== undefined && props.icon.trim() !== "") {
     classList += ` flex-button`;
     icon = props.icon.trim().toLowerCase();
   }

@@ -3,5 +3,5 @@ import { storiesOf } from "@storybook/react";
 import Icon from "./Icon";
 
 storiesOf("Icons", module)
-  .add("Hearts Button", () => <Icon icon="hearts" />)
-  .add("Carts Button", () => <Icon icon="cart" />);
+  .add("Hearts", () => <Icon icon="hearts" />)
+  .add("Carts", () => <Icon icon="cart" />);
