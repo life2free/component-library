@@ -1,12 +1,37 @@
 import React from "react";
 import "./Icon.css";
-import cart from "./img/cart.svg";
-import hearts from "./img/hearts.svg";
+import bluecart from "./img/bluecart.svg";
+import whitecart from "./img/whitecart.svg";
+import bluehearts from "./img/bluehearts.svg";
+import whitehearts from "./img/whitehearts.svg";
 import checkmark from "./img/checkmark.svg";
 import mac from "./img/mac.svg";
+import goldstar from "./img/goldstar.svg";
+import graystar from "./img/graystar.svg";
+import headphones from "./img/headphones.svg";
 
-const icons = ["cart", "hearts", "checkmark", "mac"];
-const iconObjs = [cart, hearts, checkmark, mac];
+const icons = [
+  "bluecart",
+  "whitecart",
+  "bluehearts",
+  "whitehearts",
+  "checkmark",
+  "mac",
+  "goldstar",
+  "graystar",
+  "headphones",
+];
+const iconObjs = [
+  bluecart,
+  whitecart,
+  bluehearts,
+  whitehearts,
+  checkmark,
+  mac,
+  goldstar,
+  graystar,
+  headphones,
+];
 const Icon = (props) => {
   if (props.icon !== undefined && props.icon.trim() !== "") {
     let icon = props.icon.trim();

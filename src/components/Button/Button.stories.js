@@ -92,20 +92,26 @@ storiesOf("Button / Default", module)
 
 storiesOf("Button / Button with icon", module)
   .add("Heart Button with Text", () => (
-    <Button label="Add to Cart" type="primary" faded icon="cart" size="small" />
+    <Button
+      label="Add to Cart"
+      type="primary"
+      faded
+      icon="bluecart"
+      size="small"
+    />
   ))
   .add("Carts Button with Text", () => (
     <Button
       label="Add to Favorites"
       type="primary"
       faded
-      icon="hearts"
+      icon="bluehearts"
       size="small"
     />
   ))
   .add("Heart Button", () => (
-    <Button type="primary" shape="square" faded icon="hearts" />
+    <Button type="primary" shape="square" faded icon="bluehearts" />
   ))
   .add("Carts Button", () => (
-    <Button type="primary" shape="square" faded icon="cart" />
+    <Button type="primary" shape="square" faded icon="bluecart" />
   ));

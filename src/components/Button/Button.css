@@ -172,6 +172,12 @@ button {
   height: 40px;
 }
 
+.button-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 .flex-button {
   display: flex;
   justify-content: space-evenly;
