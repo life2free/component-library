@@ -17,3 +17,8 @@ This component library was built with React and Storybook. All of this component
 Below is a screenshot of this component library.
 
 ![screenshot](https://life2free.github.io/component-library/public/screenshot.jpeg)
+
+### Contribute
+
+- Source code: https://github.com/life2free/component-library
+- Issue Tracker: https://github.com/life2free/component-library/issues
