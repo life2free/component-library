@@ -1,28 +1,19 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+# Storybook Component Library
 
-# My First Component Library
+### Description
 
-We have provided the starter code for you. From here, you'll be creating your very first component library with Storybook!
+This component library was built with React and Storybook. All of this components were designed according to an adobeXd prototype. This components library includes Button, Text input, Select input, Number input, Check box, Text input with button, Product thumbnails and etc.
 
-## Prerequisites
+### Technologies Used
 
-- Intro to React & React Components
+- HTML
+- CSS
+- React
 - Storybook
+- AdobeXd
 
-## Instructions
+### Screenshot
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Fulfill the listed requirements.
+Below is a screenshot of this component library.
 
-## Requirements
-
-Follow along as we create a new component library with different styles of buttons.
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
-# component-library
+![screenshot]()
