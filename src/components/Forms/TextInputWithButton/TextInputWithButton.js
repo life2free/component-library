@@ -20,12 +20,6 @@ class TextInputWithButton extends Component {
     };
   }
 
-  actionHandle = (e) => {
-    e.preventDefault();
-    let func = this.props.action;
-    console.log(func);
-  };
-
   inputChangeHandle = (e) => {
     e.preventDefault();
     this.setState({ value: e.target.value });
@@ -44,7 +38,7 @@ class TextInputWithButton extends Component {
           label={this.props.label}
           type="primary"
           size={this.props.size}
-          onClick={this.actionHandle}
+          onClick={this.props.onClick}
         />
       </div>
     );

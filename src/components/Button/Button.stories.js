@@ -2,12 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import Button from "./Button";
 
-const onClickTest = () => alert("test button click eventlisterner");
-
 storiesOf("Button / Primary", module)
-  .add("Primary", () => (
-    <Button label="Do something" type="primary" onClick={onClickTest} />
-  ))
+  .add("Primary", () => <Button label="Do something" type="primary" />)
   .add("Primary Outline", () => (
     <Button label="Do something" type="primary" outline />
   ))
