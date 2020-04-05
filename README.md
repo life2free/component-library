@@ -20,7 +20,7 @@ Below is a screenshot of this component library.
 
 ### Contribute
 
-If you would like to visit the Storybook component library, please click -[here](https://musing-wright-740f71.netlify.com/?path=/story/button-primary--primary)
+If you would like to visit the Storybook component library, please click -[here](https://thunderous-component-library.netlify.com/?path=/story/button-primary--primary)
 
 - Source code: https://github.com/life2free/component-library
 - Issue Tracker: https://github.com/life2free/component-library/issues
